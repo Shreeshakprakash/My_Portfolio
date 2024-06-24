@@ -20,9 +20,7 @@
     </head>
     <body>
 
-        <div id="preloader">
-         
-        </div>
+        <div id="preloader"></div>
 
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
@@ -331,5 +329,14 @@
         
       
         <script src="assets/js/main.js"></script>
+         
+        <script>
+            var loader = document.getElementById("preloader");
+            window.addEventListener("load", function(){
+                loader.style.display = "none";
+            })
+
+        </script>
+
     </body>
 </html>
