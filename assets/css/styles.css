@@ -260,6 +260,7 @@ button{
 .home__img{
   height: 250px;
   justify-self: center;
+  border-radius: 20px;
 }
 
 .home__indicator{
@@ -512,6 +513,7 @@ button{
   width: 120px;
   margin-bottom: var(--mb-0-5);
   transition: .3s;
+  border-radius: 10px;
 }
 
 .new__content{
@@ -999,4 +1001,7 @@ button{
     top: 30%;
     left: -3%;
   }
+}
+.bold{
+  font-weight: 400;
 }
