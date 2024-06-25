@@ -1006,7 +1006,8 @@ button{
   font-weight: 400;
 }
 #preloader{
-  background: rgba(229,239,241,255) url(/preloader.gif) no-repeat center center;
+  background: #0e111e url(/preloader.gif) no-repeat center center;
+  background-size: 30%;
   height: 100vh;
   width: 100%;
   position: fixed;
